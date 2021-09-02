@@ -46,7 +46,7 @@ namespace VehicleSales.Tests
 
             var vehicleDealThird = new VehicleDeal();
             vehicleDealThird.CustomerName = "c";
-            vehicleDealThird.Vehicle = "2018 Toyota"
+            vehicleDealThird.Vehicle = "2018 Toyota";
 
             lstVehicle.Add(vehicleDealFirst);
             lstVehicle.Add(vehicleDealSecond);
