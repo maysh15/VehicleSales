@@ -34,6 +34,8 @@ dotnet run
 
 It will show the url where Vehicle Sales is running
 
+![cmdapplicationrun](https://github.com/maysh15/VehicleSales/blob/main/Demo/cmdapplicationrun.JPG)
+
 7. Open below url in browser
 
 https://localhost:5001
@@ -51,6 +53,8 @@ and run below command to run test in VehicleSales.Tests.csproj
 dotnet test 
 
 --it will run the unit test and show the result
+
+![cmdunittestrun](https://github.com/maysh15/VehicleSales/blob/main/Demo/cmdunittestrun.JPG)
 
 Here is a screenshot of running application
 ![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/VehicleSales.JPG)
