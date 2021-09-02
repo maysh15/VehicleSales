@@ -53,7 +53,7 @@ dotnet test
 Here is a screenshot of running application
 ![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/VehicleSales.JPG)
 
-you have play a demo buy opening below file
+you can play a demo buy opening below file
 
 C:\VehicleSales-main\VehicleSales\VehicleSalesDemo.webm
 
