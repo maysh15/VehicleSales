@@ -50,4 +50,4 @@ dotnet test
 
 --it will run the unit test and show the result
 
-![VehicleSales]https://github.com/maysh15/VehicleSales/blob/main/Demo/VehicleSales.JPG
+[![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/VehicleSales.JPG)]
