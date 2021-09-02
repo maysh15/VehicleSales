@@ -49,3 +49,32 @@ and run below command to run test in VehicleSales.Tests.csproj
 dotnet test 
 
 --it will run the unit test and show the result
+
+Here is a screenshot of running application
+![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/VehicleSales.JPG)
+
+you have play a demo buy opening below file
+
+C:\VehicleSales-main\VehicleSales\VehicleSalesDemo.webm
+
+Solution Structure
+![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/SolutionStructure.JPG)
+
+Angular Components
+![angularcomponents](https://github.com/maysh15/VehicleSales/blob/main/Demo/angularcomponents.JPG)
+
+LoadingCSVFileData - Code reads CSV File Data and loads to List of Vehicle Deals
+![LoadingCSVFileData](https://github.com/maysh15/VehicleSales/blob/main/Demo/LoadingCSVFileData.JPG)
+
+Dependency Injection
+![Dependency_Injection](https://github.com/maysh15/VehicleSales/blob/main/Demo/Dependency_Injection.JPG)
+
+Interface Segregation
+![Interface_Segregation](https://github.com/maysh15/VehicleSales/blob/main/Demo/Interface_Segregation.JPG)
+
+Single Reponsibility
+![Single_Reponsibility](https://github.com/maysh15/VehicleSales/blob/main/Demo/Single_Reponsibility.JPG)
+
+Unit Testing
+![UnitTesting](https://github.com/maysh15/VehicleSales/blob/main/Demo/UnitTesting.JPG)
+
