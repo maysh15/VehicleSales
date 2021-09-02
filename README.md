@@ -58,9 +58,11 @@ you have play a demo buy opening below file
 C:\VehicleSales-main\VehicleSales\VehicleSalesDemo.webm
 
 Solution Structure
+
 ![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/SolutionStructure.JPG)
 
 Angular Components
+
 ![angularcomponents](https://github.com/maysh15/VehicleSales/blob/main/Demo/angularcomponents.JPG)
 
 LoadingCSVFileData - Code reads CSV File Data and loads to List of Vehicle Deals
