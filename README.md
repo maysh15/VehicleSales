@@ -1,4 +1,4 @@
-# VehicleSales
+# Vehicle Sales
 
 This Application Demonstrates upload of Vehicle Sales data in CSV Format, display UI showing all aspects of data and displays the most sold vehicle
 
@@ -10,7 +10,9 @@ bootstrap
 
 # Installation Instruction
 
-1. Clone Repository or downlaod VehicleSales-main.zip and extract contents to C:
+--Please install .net core 3.1 sdk and nodejs
+
+1. Clone Repository or download VehicleSales-main.zip and extract contents to C:
 
 2. Open Command Promp
 
@@ -53,14 +55,16 @@ dotnet test
 Here is a screenshot of running application
 ![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/VehicleSales.JPG)
 
-you have play a demo buy opening below file
+you can play a demo buy opening below file
 
 C:\VehicleSales-main\VehicleSales\VehicleSalesDemo.webm
 
 Solution Structure
+
 ![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/SolutionStructure.JPG)
 
 Angular Components
+
 ![angularcomponents](https://github.com/maysh15/VehicleSales/blob/main/Demo/angularcomponents.JPG)
 
 LoadingCSVFileData - Code reads CSV File Data and loads to List of Vehicle Deals
@@ -72,7 +76,7 @@ Dependency Injection
 Interface Segregation
 ![Interface_Segregation](https://github.com/maysh15/VehicleSales/blob/main/Demo/Interface_Segregation.JPG)
 
-Single Reponsibility
+Single Responsibility
 ![Single_Reponsibility](https://github.com/maysh15/VehicleSales/blob/main/Demo/Single_Reponsibility.JPG)
 
 Unit Testing
