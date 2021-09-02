@@ -25,7 +25,7 @@ namespace VehicleSales.Tests
         }
 
         [TestMethod]
-        public void VechieDealFilter_MostSoldVehicle()
+        public void VehicleDealFilter_MostSoldVehicle()
         {
             string result = VehicleDealFilter.MostSoldVehicle(this.vehicleList);
 
