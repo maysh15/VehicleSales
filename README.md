@@ -50,4 +50,8 @@ dotnet test
 
 --it will run the unit test and show the result
 
+Here is a screenshot of running application
 ![VehicleSales](https://github.com/maysh15/VehicleSales/blob/main/Demo/VehicleSales.JPG)
+
+you have play a demo buy opening below file
+C:\VehicleSales-main\VehicleSales\VehicleSalesDemo.webm
