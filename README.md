@@ -1,6 +1,6 @@
 # VehicleSales
 
-This Application Demonstrated upload of Vehicle Sales data in CSV Format, display UI showing all aspects of data and displays the most sold vehicle
+This Application Demonstrates upload of Vehicle Sales data in CSV Format, display UI showing all aspects of data and displays the most sold vehicle
 
 # Technology Stack
 
