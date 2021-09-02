@@ -10,7 +10,10 @@ using VehicleSales.Model;
 
 namespace VehicleSales.Logic
 {
-    public class VehicleDealCsvFileUploader : IVehicleDealFileUploader
+    // Interface Segregation
+    // If VehicleDealCsvFileUploader only needs to store the file other fileuploaders do not need to implement the interface method
+    // SaveVehicleDealFile is in IVehicleDealFileStore instead of IVehicleDealFileUploader
+    public class VehicleDealCsvFileUploader : IVehicleDealFileUploader, IVehicleDealFileStore
     {
         public List<VehicleDeal> LoadVehicleDealFile(IFormFile formFile)
         {
@@ -25,10 +28,8 @@ namespace VehicleSales.Logic
                     var line = reader.ReadLine();
                     if (lineNumber > 1)
                     {
-                        var regex = new Regex("\\\"(.*?)\\\"");
-                        var line1 = regex.Replace(line, m => m.Value.Replace(",", ""));
-                        var line2 = line1.Replace("\"", "");
-                        var objArr = line2.Split(',');
+                        var lineRst = Formatter.RemoveCurrencyFormatting(line);
+                        var objArr = lineRst.Split(',');
                         var obj = new VehicleDeal();
                         obj.DealNumber = objArr[0];
                         obj.CustomerName = objArr[1];
@@ -43,6 +44,21 @@ namespace VehicleSales.Logic
                 }
             }
             return lstVehicleDeal;
+        }
+
+        public bool ValidateVehicleDealFile(IFormFile formFile)
+        {
+            var isValid = false;
+            //File data can be validated here its not empty and correct format
+            isValid = true;
+            return isValid;
+        }
+
+        public bool SaveVehicleDealFile(IFormFile formFile)
+        {
+            var sucessfullySaved = false;
+
+            return sucessfullySaved;
         }
     }
 }

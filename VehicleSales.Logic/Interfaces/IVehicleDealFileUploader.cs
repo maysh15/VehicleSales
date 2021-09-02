@@ -8,6 +8,7 @@ namespace VehicleSales.Logic.Interfaces
 {
     public interface IVehicleDealFileUploader
     {
+        bool ValidateVehicleDealFile(IFormFile formFile);
         List<VehicleDeal> LoadVehicleDealFile(IFormFile formFile);
     }
 }

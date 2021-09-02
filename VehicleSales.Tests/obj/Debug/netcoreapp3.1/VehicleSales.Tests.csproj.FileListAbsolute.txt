@@ -92,3 +92,16 @@ C:\DTCRepos\VehicleSales\VehicleSales.Tests\obj\Debug\netcoreapp3.1\VehicleSales
 C:\DTCRepos\VehicleSales\VehicleSales.Tests\obj\Debug\netcoreapp3.1\VehicleSales.Tests.dll
 C:\DTCRepos\VehicleSales\VehicleSales.Tests\obj\Debug\netcoreapp3.1\VehicleSales.Tests.pdb
 C:\DTCRepos\VehicleSales\VehicleSales.Tests\obj\Debug\netcoreapp3.1\VehicleSales.Tests.genruntimeconfig.cache
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\VehicleSales.Logic.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\VehicleSales.Model.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\VehicleSales.Logic.pdb
+C:\DTCRepos\VehicleSales\VehicleSales.Tests\bin\Debug\netcoreapp3.1\VehicleSales.Model.pdb
