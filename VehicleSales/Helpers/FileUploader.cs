@@ -11,7 +11,7 @@ namespace VehicleSales.Helpers
     //FileUploader has single resposibility for handling file upload
     public class FileUploader
     {
-        private IVehicleDealFileUploader _vehicleDealFileUploader;
+        private readonly IVehicleDealFileUploader _vehicleDealFileUploader;
 
         public FileUploader(IVehicleDealFileUploader vehicleDealFileUploader)
         {

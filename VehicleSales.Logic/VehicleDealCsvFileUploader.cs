@@ -29,15 +29,15 @@ namespace VehicleSales.Logic
                     if (lineNumber > 1)
                     {
                         var lineRst = Formatter.RemoveCurrencyFormatting(line);
-                        var objArr = lineRst.Split(',');
-                        var obj = new VehicleDeal();
-                        obj.DealNumber = objArr[0];
-                        obj.CustomerName = objArr[1];
-                        obj.DealershipName = objArr[2];
-                        obj.Vehicle = objArr[3];
-                        obj.Price = Convert.ToDecimal(objArr[4]);
-                        obj.Date = Convert.ToDateTime(objArr[5]);
-                        lstVehicleDeal.Add(obj);
+                        var vehicleDealArr = lineRst.Split(',');
+                        var vehicleDeal = new VehicleDeal();
+                        vehicleDeal.DealNumber = vehicleDealArr[0];
+                        vehicleDeal.CustomerName = vehicleDealArr[1];
+                        vehicleDeal.DealershipName = vehicleDealArr[2];
+                        vehicleDeal.Vehicle = vehicleDealArr[3];
+                        vehicleDeal.Price = Convert.ToDecimal(vehicleDealArr[4]);
+                        vehicleDeal.Date = Convert.ToDateTime(vehicleDealArr[5]);
+                        lstVehicleDeal.Add(vehicleDeal);
                         result.AppendLine(line);
                     }
                     lineNumber++;
