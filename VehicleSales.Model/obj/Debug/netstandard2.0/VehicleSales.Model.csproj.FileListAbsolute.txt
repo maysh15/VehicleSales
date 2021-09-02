@@ -1,0 +1,9 @@
+C:\DTCRepos\VehicleSales\VehicleSales.Model\bin\Debug\netstandard2.0\VehicleSales.Model.deps.json
+C:\DTCRepos\VehicleSales\VehicleSales.Model\bin\Debug\netstandard2.0\VehicleSales.Model.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Model\bin\Debug\netstandard2.0\VehicleSales.Model.pdb
+C:\DTCRepos\VehicleSales\VehicleSales.Model\obj\Debug\netstandard2.0\VehicleSales.Model.csprojAssemblyReference.cache
+C:\DTCRepos\VehicleSales\VehicleSales.Model\obj\Debug\netstandard2.0\VehicleSales.Model.AssemblyInfoInputs.cache
+C:\DTCRepos\VehicleSales\VehicleSales.Model\obj\Debug\netstandard2.0\VehicleSales.Model.AssemblyInfo.cs
+C:\DTCRepos\VehicleSales\VehicleSales.Model\obj\Debug\netstandard2.0\VehicleSales.Model.csproj.CoreCompileInputs.cache
+C:\DTCRepos\VehicleSales\VehicleSales.Model\obj\Debug\netstandard2.0\VehicleSales.Model.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Model\obj\Debug\netstandard2.0\VehicleSales.Model.pdb

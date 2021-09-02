@@ -1,0 +1,12 @@
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\bin\Debug\netstandard2.0\VehicleSales.Logic.deps.json
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\bin\Debug\netstandard2.0\VehicleSales.Logic.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\bin\Debug\netstandard2.0\VehicleSales.Logic.pdb
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\obj\Debug\netstandard2.0\VehicleSales.Logic.AssemblyInfoInputs.cache
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\obj\Debug\netstandard2.0\VehicleSales.Logic.AssemblyInfo.cs
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\obj\Debug\netstandard2.0\VehicleSales.Logic.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\obj\Debug\netstandard2.0\VehicleSales.Logic.pdb
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\bin\Debug\netstandard2.0\VehicleSales.Model.dll
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\bin\Debug\netstandard2.0\VehicleSales.Model.pdb
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\obj\Debug\netstandard2.0\VehicleSales.Logic.csprojAssemblyReference.cache
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\obj\Debug\netstandard2.0\VehicleSales.Logic.csproj.CopyComplete
+C:\DTCRepos\VehicleSales\VehicleSales.Logic\obj\Debug\netstandard2.0\VehicleSales.Logic.csproj.CoreCompileInputs.cache
