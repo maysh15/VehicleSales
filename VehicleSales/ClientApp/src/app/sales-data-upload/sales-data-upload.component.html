@@ -5,17 +5,10 @@
   <div class="card-body">
     <h5 class="card-title">Select a csv file to upload</h5>
     <p class="card-text">Click on upload button after selected the csv file</p>
-    <input hidden
-           type="file"
-           #selectFile
-           accept=".csv"
-           name="selectFile"
-           (change)="chooseFile($event)" />
-    <a href="#" class="btn btn-outline-primary" (click)="selectFile.click()">Select file for upload</a>
-    &nbsp;&nbsp;
-    <a href="#" class="btn btn-primary" (click)="onUpload()">Upload</a>
-
-    <label [innerHTML]="fileName" class="d-block"></label>
+    <input type="file" accept=".csv" name="FileInput" (change)="selectFile($event)" />
+    <br />
+    <br />
+    <a href="#" class="btn btn-primary" (click)="upload()">Upload</a>
   </div>
 </div>
 <br />

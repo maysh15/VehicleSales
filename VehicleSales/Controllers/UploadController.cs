@@ -35,12 +35,6 @@ namespace VehicleSales.Controllers
                 //Dependency Injection
                 var uploader = new FileUploader(_fileUploader);
                 var lstVehicleDeal = uploader.LoadVehicleDeal(formFile);
-
-                //var results = from p in lstVehicleDeal
-                //              group p.DealNumber by p.Vehicle into g
-                //              select new { Vehicle = g.Key, DealsCount = g.Count() };
-
-                //var list = results.OrderByDescending(g => g.DealsCount).First();
                 vehicleMostSoldResult.lstVehicleDeal = lstVehicleDeal;
                 vehicleMostSoldResult.mostSoldVehicle = VehicleDealFilter.MostSoldVehicle(lstVehicleDeal);
                 return Ok(vehicleMostSoldResult);

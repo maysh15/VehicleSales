@@ -18,14 +18,12 @@ export class SalesDataUploadComponent implements OnInit {
   ngOnInit() {
   }
 
-  chooseFile(event) {
+  selectFile(event) {
     this.file = event.target.files[0];
     this.fileName = this.file.name;
-    event.target.value = '';
   }
 
-  onUpload = () => {
-    console.log("onUpload");
+  upload = () => {
     this.uploadService.uploadfile(this.file).subscribe((response: any) => {
       if (response) {
         if (response !== undefined && response["body"] !== undefined) {

@@ -1,0 +1,16 @@
+services:
+  vehiclesales:
+    build:
+      context: C:\DTCRepos\VehicleSales
+      dockerfile: VehicleSales/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: vehiclesales
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\mayank.sharma\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\mayank.sharma\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
