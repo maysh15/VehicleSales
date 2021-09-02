@@ -74,7 +74,7 @@ Angular Components
 LoadingCSVFileData - Code reads CSV File Data and loads to List of Vehicle Deals
 ![LoadingCSVFileData](https://github.com/maysh15/VehicleSales/blob/main/Demo/LoadingCSVFileData.JPG)
 
-Dependency Injection
+Dependency Injection with singleton
 ![Dependency_Injection](https://github.com/maysh15/VehicleSales/blob/main/Demo/Dependency_Injection.JPG)
 
 Interface Segregation
