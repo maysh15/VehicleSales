@@ -74,7 +74,7 @@ Dependency Injection
 Interface Segregation
 ![Interface_Segregation](https://github.com/maysh15/VehicleSales/blob/main/Demo/Interface_Segregation.JPG)
 
-Single Reponsibility
+Single Responsibility
 ![Single_Reponsibility](https://github.com/maysh15/VehicleSales/blob/main/Demo/Single_Reponsibility.JPG)
 
 Unit Testing
