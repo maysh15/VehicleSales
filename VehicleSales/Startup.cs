@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using VehicleSales.Logic;
+using VehicleSales.Logic.Interfaces;
 
 namespace VehicleSales
 {
@@ -26,6 +28,8 @@ namespace VehicleSales
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+            // dependency injection with singleton
+            services.AddSingleton<IVehicleDealFileUploader, VehicleDealCsvFileUploader>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

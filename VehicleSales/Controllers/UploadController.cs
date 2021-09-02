@@ -19,9 +19,9 @@ namespace VehicleSales.Controllers
     {
         private readonly IVehicleDealFileUploader _fileUploader;
 
-        public FileUploadController()
+        public FileUploadController(IVehicleDealFileUploader vehicleDealFileUploader)
         {
-            _fileUploader = new VehicleDealCsvFileUploader();
+            _fileUploader = vehicleDealFileUploader;
         }
 
         [HttpPost("Upload")]
