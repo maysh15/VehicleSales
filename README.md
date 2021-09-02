@@ -1,4 +1,4 @@
-# VehicleSales
+# Vehicle Sales
 
 This Application Demonstrates upload of Vehicle Sales data in CSV Format, display UI showing all aspects of data and displays the most sold vehicle
 
