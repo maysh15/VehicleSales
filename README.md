@@ -10,7 +10,9 @@ bootstrap
 
 # Installation Instruction
 
-1. Clone Repository or downlaod VehicleSales-main.zip and extract contents to C:
+--Please install .net core 3.1 sdk and nodejs
+
+1. Clone Repository or download VehicleSales-main.zip and extract contents to C:
 
 2. Open Command Promp
 
